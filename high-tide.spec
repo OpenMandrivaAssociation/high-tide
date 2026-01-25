@@ -5,7 +5,7 @@ Name:		high-tide
 Version:	1.2.0
 Release:	1
 Summary:	Libadwaita TIDAL client for Linux
-Source0:        https://github.com/Nokse22/high-tide/archive/v%{version}/%{name}-%{version}.tar.gz
+Source0:    https://github.com/Nokse22/high-tide/archive/v%{version}/%{name}-%{version}.tar.gz
 URL:		https://github.com/Nokse22/high-tide
 License:	GPLv3
 Group:		Music
