@@ -15,12 +15,13 @@ BuildRequires:  appstream
 BuildRequires:  gettext
 BuildRequires:	python-blueprint-compiler
 BuildRequires:  pkgconfig(blueprint-compiler)
+BuildRequires:	gtk4
+BuildRequires:	libadwaita-common
+BuildRequires:	pkgconfig(libadwaita-1)
 BuildRequires:	pkgconfig(gio-2.0)
 BuildSystem:	meson
 
-Requires:	gtk4
-Requires:	libadwaita-common
-Requires:	pkgconfig(libadwaita-1)
+
 Requires:	gstreamer1.0-plugins-base
 # Requires:	libgstreamer1.0
 # Requires:	gstreamer1.0-flac
