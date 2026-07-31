@@ -2,7 +2,7 @@
 %global appid io.github.nokse22.high-tide
 
 Name:		high-tide
-Version:	1.2.0
+Version:	1.5.0
 Release:	1
 Summary:	Libadwaita TIDAL client for Linux
 Source0:    https://github.com/Nokse22/high-tide/archive/v%{version}/%{name}-%{version}.tar.gz
