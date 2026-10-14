@@ -22,6 +22,8 @@ BuildRequires:	gtk4
 BuildRequires:	libadwaita-common
 BuildRequires:	pkgconfig(libadwaita-1)
 BuildRequires:	pkgconfig(gio-2.0)
+BuildRequires:	typelib(Gtk) = 4.0
+BuildRequires:	typelib(Adw) = 1
 BuildSystem:	meson
 
 
