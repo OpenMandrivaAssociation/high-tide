@@ -15,6 +15,9 @@ BuildRequires:  appstream
 BuildRequires:  gettext
 BuildRequires:	python-blueprint-compiler
 BuildRequires:  pkgconfig(blueprint-compiler)
+BuildRequires:	python%{pyver}dist(pygobject)
+BuildRequires:	python%{pyver}dist(tidalapi)
+BuildRequires:	python%{pyver}dist(pypresence)
 BuildRequires:	gtk4
 BuildRequires:	libadwaita-common
 BuildRequires:	pkgconfig(libadwaita-1)
@@ -32,7 +35,7 @@ Requires:	lib64portal1
 Requires:	lib64portal-gir1
 Requires:	alsa-utils
 Requires:	lib64asound2
-Requires:	python-pypresence
+Requires:	python%{pyver}dist(pypresence)
 Requires:	python%{pyver}dist(tidalapi)
 
 
