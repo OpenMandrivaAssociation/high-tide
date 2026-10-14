@@ -24,6 +24,10 @@ BuildRequires:	pkgconfig(libadwaita-1)
 BuildRequires:	pkgconfig(gio-2.0)
 BuildRequires:	typelib(Gtk) = 4.0
 BuildRequires:	typelib(Adw) = 1
+# gobject-introspection provides typelib(cairo) and typelib(freetype2) without
+# shipping the files. Loading Gtk 4 needs those typelibs.
+BuildRequires:	lib64cairo-gir1.0
+BuildRequires:	lib64freetype-gir2.0
 BuildSystem:	meson
 
 
